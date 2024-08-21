@@ -1,37 +1,41 @@
 :root {
-    --cor1:blue;
+    --cor1:#222222;
 }
 
-
-*{
-    padding: 0;
-    margin: 0;
+body {
+    background-color: var(--cor1);
+    color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 header {
-    position: fixed;
-    background-color: transparent;
-    color: black;
     display: flex;
-    min-width: 100vw;
-    
+    justify-content: space-between;
+    align-items: center;
 }
 
-header.ativo {
-    background-color: gray;
+#titulo {
+    line-height: 10px;
 }
 
-nav > ul {
-    display: flex;
+li {
+    display: inline-block;
     margin: 20px;
-    list-style-type: none;
-    gap: 20px;
-    
 }
 
-p {
-    
-    font-size: 100px;
+a {
+    text-decoration: none;
+    color: white;
 }
 
+a:hover {
+    color: yellow;
+    transition: 0.9s all;
+}
+
+h1 {
+
+}
 
