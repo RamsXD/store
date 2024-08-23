@@ -9,8 +9,8 @@
 }
 
 body {
-    height: 200vh;
     color: black;
+    min-height: 100vh;
 }
 
 #titulo {
@@ -26,11 +26,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     transition: 0.5s ease;
 }
 
 nav.ativo {
     background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.055);
 }
 
 li {
@@ -65,16 +67,40 @@ main {
     display: flex;
     max-width: 1200px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 section {
     height: 300px;
 }
 
+section#principal {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
 hr {
-    width: 1200px;
+    width: 1300px;
+    margin: 20px auto;
+    position: relative;
+    
+}
+
+.vitrine-grupo {
+    display: flex;
+    margin: 30px auto;
+}
+
+div.vitrine {
+    border: 1px solid black;
+    width: 300px;
+    height: 500px;
+    margin-right: 15px;
 }
 
 footer {
     background-color: black;
+    margin-top: 10px;
+
 }
