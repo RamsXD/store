@@ -3,7 +3,7 @@
 let header = document.querySelector.header;
 
 function scrollAtivo() {
-    menu.classList.toggle('ativo', scrollY > 600)
+    menu.classList.toggle('ativo', scrollY > 50)
 }
 
 window.addEventListener('scroll', scrollAtivo)
