@@ -4,13 +4,15 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
     color: black;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #titulo {
@@ -26,7 +28,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    
     transition: 0.5s ease;
 }
 
@@ -48,9 +49,8 @@ a {
 
 a:hover {
     color: yellow;
-    transition: 0.9s all;
+    transition: 0.5s all;
 }
-
 
 section#banner {
     width: 100%;
@@ -59,32 +59,30 @@ section#banner {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top 38%;
-    
 }
 
 main {
     background-color: var(--cor2);
-    display: flex;
     max-width: 1200px;
     margin: auto;
-    margin-bottom: 30px;
-}
-
-section {
-    height: 300px;
+    
 }
 
 section#principal {
     display: flex;
     flex-direction: column;
     margin: 50px auto;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
 hr {
-    width: 1300px;
+    width: 1255px;
     margin: 20px auto;
     position: relative;
-    
 }
 
 .vitrine-grupo {
@@ -94,13 +92,37 @@ hr {
 
 div.vitrine {
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
     width: 300px;
     height: 500px;
     margin-right: 15px;
 }
 
-footer {
-    background-color: black;
-    margin-top: 10px;
-
+div.foto {
+    height: 350px;
+    width: 250px;
+    margin: 30px auto;
+    background-image: url('../media/imgs/foto2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+div.preco {
+    border: 1px solid black;
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    
+}
+
+footer{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    height: 50px;
+    }
+
+    footer > p {
+        margin-top: 10px;
+    }
