@@ -1,31 +1,34 @@
-// cabeçalho mudando background ao usar scroll
-let menu = document.getElementById('cabecalho');
+//menu hamburguer
+let colun = document.querySelector("#coluna");
 
-function scrollAtivo() {
-    menu.classList.toggle("ativo", scrollY > 100);
+function menuClicado() {
+     if (colun.style.display == "none") {
+        colun.style.display = "block";
+    }else {
+        colun.style.display = "none";
+    }
 }
-window.addEventListener("scroll", scrollAtivo);
 
 // Carregar itens da lista
 
 const itens = [
     {
         id: 1,
-        img: 'media/imgs/foto2.jpg',
+        img: "media/imgs/foto2.jpg",
         nome: "camisa",
         preço: "R$ 10,00",
     },
 
     {
         id: 2,
-        img: 'media/imgs/foto2.jpg',
+        img: "media/imgs/foto2.jpg",
         nome: "calça",
         preço: "R$ 10,00",
     },
 
     {
         id: 3,
-        img: 'media/imgs/foto2.jpg',
+        img: "media/imgs/foto2.jpg",
         nome: "short",
         preço: "R$ 10,00",
     },
@@ -43,8 +46,8 @@ function iniciarLoja() {
                   <p> ${val.preço} </p>
             </div>`;
         containerProdutos.innerHTML += produto;
-        console.log(val)
-    })
+        console.log(val);
+    });
 
     // for (i = 0; i < itens.length; i++) {
     //     let produto = `

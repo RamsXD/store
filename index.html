@@ -1,45 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mag</title>
-      <link rel="stylesheet" href="css/style.css" />
-   </head>
-   <body>
-      <header>
-         <nav id="cabecalho">
-            <div id="titulo">
-               <h1>Pérola</h1>
-               <h1>Store</h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mag</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav id="cabecalho">
+                <span
+                    id="burguer"
+                    onclick="menuClicado()"
+                    class="material-symbols-outlined"
+                >
+                    menu
+                </span>
+                <div class="titulo">
+                    <h1>Beblum</h1>
+                </div>
+                <span class="material-symbols-outlined">shopping_bag</span>
+            </nav>
+            <div id="coluna">
+                <div id="cabecalho2">
+                   <span
+                       id="x"
+                       class="material-symbols-outlined"
+                       onclick="menuClicado()"
+                   >
+                       close
+                   </span>
+                   <div class="titulo">
+                       <h2>Beblum</h2>
+                   </div>
+                </div>
+                <ul id="lista">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Peças</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
             </div>
-            <ul>
-               <li><a href="#">Inicio</a></li>
-               <li><a href="#">Peças</a></li>
-               <li><a href="#">Sobre</a></li>
-               <li><a href="#">Contato</a></li>
-            </ul>
-         </nav>
-         <section id="banner"></section>
-      </header>
+        </header>
 
-      <main>
-         <section id="principal">
-            <h2>Lançamentos</h2>
-            <hr>
-            <div class="vitrine-grupo">
-               
-            </div>
-            <div class="vitrine-grupo">
-               
-            </div>
-         </section>
-      </main>
+        <main>
+            <section id="principal">
+                <h2>Lançamentos</h2>
+                <hr />
+                <div class="vitrine-grupo"></div>
+                <div class="vitrine-grupo"></div>
+            </section>
+        </main>
 
-      <footer>
-         <p>a</p>
-      </footer>
+        <footer>
+            <p>a</p>
+        </footer>
 
-      <script src="script.js"></script>
-   </body>
+        <script src="script.js"></script>
+    </body>
 </html>
