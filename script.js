@@ -2,10 +2,10 @@
 let colun = document.querySelector("#coluna");
 
 function menuClicado() {
-     if (colun.style.display == "none") {
-        colun.style.display = "block";
+     if (colun.style.opacity == "0") {
+        colun.style.opacity = "1";
     }else {
-        colun.style.display = "none";
+        colun.style.opacity = "0";
     }
 }
 
