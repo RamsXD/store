@@ -1,4 +1,4 @@
 # Loja Beblum
-<p>Site da loja virtual da minha namorada que estou criando, as ferrametas ate o momento sao HTML, CSS, JavaScript</p>
-<p>Segue o link:</p>
+Site da loja virtual da minha namorada que estou criando, as ferrametas ate o momento sao HTML, CSS, JavaScript
+Segue o link:
 https://ramsxd.github.io/store/
