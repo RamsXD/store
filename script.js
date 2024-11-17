@@ -14,21 +14,21 @@ function menuClicado() {
 const itens = [
     {
         id: 1,
-        img: "media/imgs/foto2.jpg",
+        img: "media/imgs/foto1.jpg",
         nome: "camisa",
         preço: "R$ 10,00",
     },
 
     {
         id: 2,
-        img: "media/imgs/foto2.jpg",
+        img: "media/imgs/foto1.jpg",
         nome: "calça",
         preço: "R$ 10,00",
     },
 
     {
         id: 3,
-        img: "media/imgs/foto2.jpg",
+        img: "media/imgs/foto1.jpg",
         nome: "short",
         preço: "R$ 10,00",
     },
